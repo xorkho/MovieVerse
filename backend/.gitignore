@@ -1,0 +1,7 @@
+dataset/
+embeddings/
+*.npy
+*.pkl
+venv/
+__pycache__/
+node_modules/
