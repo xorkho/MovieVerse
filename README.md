@@ -13,5 +13,3 @@ It includes **RAG AI features** for movie data and interactive chat functionalit
 - **Backend:** Python, Django, REST Framework
 - **Frontend:** React.js, HTML, CSS, JavaScript
 - **AI/ML:** Embeddings for retrieval-based chatbot
-
-## Project Structure
