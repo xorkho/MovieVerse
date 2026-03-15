@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-f&gf%d4mhvk%-d@03f7mhgo(vnw6g283c3zt__#1uiti9^=2be
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -73,9 +73,7 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-     "http://localhost:5173",
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
@@ -131,3 +129,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
