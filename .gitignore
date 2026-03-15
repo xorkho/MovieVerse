@@ -1,21 +1,15 @@
-# Frontend dependencies & build
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
-*.log
-
-# Backend dependencies
-backend/__pycache__/
-backend/venv/
-backend/.venv/
+# Python
+venv/
+__pycache__/
 *.pyc
 
-# Env files (API keys, secrets)
-.env
-frontend/.env
-backend/.env
+# Node / React
+node_modules/
+build/
+dist/
 
-# System/Editor junk
-.DS_Store
-.idea/
-.vscode/
+# AI / Large data
+dataset/
+embeddings/
+*.npy
+*.pkl
